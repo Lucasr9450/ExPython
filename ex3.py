@@ -1,0 +1,5 @@
+IDf = int(input("Digite o ID do funcionário: "))
+IDp = int(input("Digite o ID do produto: "))
+p = float(input("Digite o preço unitário: "))
+qtd = int(input("Digite a qtd de produtos: "))
+print("O funcionário de ID", IDf, "vendeu o produto de ID", IDp, "e ganhou", qtd*p*0.05, "de comissão em cima do valor total de: ", qtd*p)
